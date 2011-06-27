@@ -233,7 +233,7 @@ writing_im_msg_cb(PurpleAccount *account, const char *who,
 }
 
 static void
-remove_smileys()
+remove_smileys(void)
 {
 	GList *p;
 
